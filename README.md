@@ -45,6 +45,7 @@ There are 3 wallpapers in `backgrounds/`. Cycle through them with `omarchy theme
 | `colors.toml` | The palette. Omarchy builds every app's config from this file. |
 | `hyprland.lua` | Window borders. Active windows get a blue to off-white gradient, inactive ones a dark gray. |
 | `icons.theme` | Uses the `Yaru-blue-dark` icon set. |
+| `t3code.json` | Hand-tuned T3 Code theme with a brighter `#346bf1` accent and quiet borders. Its CSS puts the sidebar and top bar on one gray `#0d0d0d` shell and sets the chat in a darker `#080808` card with 10px corners. Scrollbars stay hidden until the pointer is over a scrollable area. The CSS needs T3 Code 0.1.10 or newer, and older versions use the colors only. Replaces the one Omarchy generates. |
 | `backgrounds/` | The wallpapers. |
 | `desktop.png`, `preview.png`, `preview-unlock.png` | The screenshots above. |
 

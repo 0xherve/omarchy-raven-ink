@@ -1,0 +1,78 @@
+{
+  "name": "Raven Ink",
+  "appearance": "dark",
+  "canvas": "#080808",
+  "accent": "#346bf1",
+  "colors": {
+    "chrome": "#0d0d0d",
+    "toolbar": "#0d0d0d",
+    "toolbarForeground": "#ffffff",
+    "toolbarBorder": "#1a1a1a",
+    "toolbarControl": "#121212",
+    "toolbarControlForeground": "#ffffff",
+    "toolbarControlHover": "#1a1a1a",
+
+    "surface": "#121212",
+    "surfaceRaised": "#141414",
+    "surfaceOverlay": "#141414",
+
+    "text": "#ffffff",
+    "textMuted": "#8a8a8a",
+    "border": "#1c1c1c",
+    "input": "#202020",
+    "focus": "#346bf1",
+
+    "accentForeground": "#ffffff",
+    "accentSurface": "#141414",
+    "accentSurfaceForeground": "#ffffff",
+
+    "secondary": "#121212",
+    "secondaryForeground": "#ffffff",
+    "muted": "#121212",
+    "mutedForeground": "#8a8a8a",
+    "placeholder": "#8a8a8a",
+    "secondaryLabel": "#8a8a8a",
+    "iconMuted": "#8a8a8a",
+
+    "error": "#ff6166",
+    "errorForeground": "#ff8085",
+    "errorSurface": "#2e1214",
+    "warning": "#f2c46b",
+    "warningForeground": "#f7d48c",
+    "warningSurface": "#2e2410",
+    "update": "#346bf1",
+    "updateForeground": "#8aaee6",
+    "updateSurface": "#121b34",
+
+    "messageSurface": "#161616",
+    "messageForeground": "#ffffff",
+    "messageAction": "#346bf1",
+    "messageActionForeground": "#ffffff",
+    "messageActionHover": "#3061d9",
+
+    "codeBackground": "#121212",
+    "codeForeground": "#ffffff",
+
+    "searchMatchBackground": "#8c6c1f",
+    "searchMatchForeground": "#ffffff",
+    "searchMatchActiveBackground": "#f2c46b",
+    "searchMatchActiveForeground": "#080808",
+
+    "sidebar": "#0d0d0d",
+    "sidebarForeground": "#ffffff",
+    "sidebarMutedForeground": "#a1a1a1",
+    "sidebarControlSurface": "#111111",
+    "sidebarRowHover": "#161616",
+    "sidebarRowActive": "#1d1d1d",
+    "sidebarRowSelected": "#232323",
+    "sidebarBorder": "#191919",
+
+    "terminalBackground": "#080808",
+    "terminalForeground": "#fafafa",
+    "terminalCursor": "#bfd3f2",
+    "terminalSelection": "#24324d",
+    "terminalScrollbar": "#222222",
+    "terminalScrollbarHover": "#383838"
+  },
+  "css": "div:has(> [data-chat-column]) { background-color: var(--sidebar) !important; background-image: var(--surface-grain) !important; background-size: var(--surface-grain-size); background-attachment: fixed; padding: 0 8px 8px 0; }\n[data-slot='sidebar-inner'] { background-attachment: fixed; }\nbody:has([data-slot='sidebar'][data-state='collapsed']) div:has(> [data-chat-column]) { padding-left: 8px; }\n[data-slot='sidebar-container'] { border: 0 !important; }\n[data-chat-header] { background: transparent !important; }\n[data-workspace-area='conversation'] { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }\n[data-thread-terminal-drawer][data-terminal-owner='drawer'] { margin-top: 8px; border: 1px solid var(--border) !important; border-radius: 10px; }\n[data-preview-panel-mode='inline'] { background: transparent !important; border-left: 0 !important; }\n[data-right-panel-tabbar] { background: transparent !important; }\n[data-preview-panel-mode='inline'] [data-right-panel-surface-content] { background: var(--background); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }\ndiv:has(> [data-chat-column]):has([data-preview-panel-mode='inline'][data-preview-panel-maximized='false']:not([data-workspace-unavailable='true'])) [data-workspace-area='conversation'] { border-right: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; }\n[data-preview-panel-mode='inline'][data-preview-panel-maximized='false'] [data-right-panel-surface-content] { border-top-left-radius: 0; border-bottom-left-radius: 0; }\n.chat-markdown { color: color-mix(in srgb, var(--foreground) 92%, var(--background)) !important; --info-foreground: var(--app-theme-update-foreground); }\n.chat-markdown.leading-relaxed { font-size: 0.9375rem; line-height: 1.7; }\n.chat-markdown :is(p, ul, ol, blockquote, pre) { margin-block: 1.2em; }\n.chat-markdown :is(strong, b, h1, h2, h3, h4, h5) { color: var(--foreground); }\n.chat-markdown :is(h1, h2, h3, h4) { line-height: 1.25; letter-spacing: -0.012em; margin: 1.7em 0 0.6em; }\n.chat-markdown h1 { font-size: 1.6em; }\n.chat-markdown h2 { font-size: 1.35em; }\n.chat-markdown h3 { font-size: 1.15em; }\n.chat-markdown h4 { font-size: 1em; }\n:root { --context-chip-mention: var(--app-theme-update-foreground) !important; --context-chip-file: var(--app-theme-update-foreground) !important; }\n:where(:not(iframe))::-webkit-scrollbar-thumb { background: transparent !important; }\n:where(:not(iframe)):hover::-webkit-scrollbar-thumb { background: var(--app-scrollbar-thumb) !important; }\n:where(:not(iframe))::-webkit-scrollbar-thumb:hover { background: var(--app-scrollbar-thumb-hover) !important; }\n.chat-markdown pre:not(:hover) { scrollbar-color: transparent transparent; }"
+}
